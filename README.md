@@ -14,4 +14,4 @@ Feel free to use this code, enhance it and create commercial projects with it.
 
 Enjoy !
 
-P.S. - I have created the solution using .NET 8 for MacOS and VS Code. I have included the VS Code generated files if anybody needs them.
+P.S. - I have worked on the solution using .NET 8 for MacOS and VS Code. I have included the VS Code generated files if anybody needs them.
