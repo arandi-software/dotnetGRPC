@@ -1,0 +1,5 @@
+//run the container
+docker run -it --name grpcclient --net=bridge  grpcgreeterclient:latest
+
+//build the image
+docker build -t grpcgreeterclient:latest .  

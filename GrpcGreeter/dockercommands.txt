@@ -1,0 +1,5 @@
+//run the container 
+docker run -it -p 8080:8080 --name grpcserver --net=bridge -h gserver grpcgreeter
+
+//build the image
+docker build -t grpcgreeter:latest .       

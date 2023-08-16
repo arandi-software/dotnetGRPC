@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  grpcserver:
+    container_name: grpcserver
+    hostname: gserver
+    ports:
+      - 8080:8080
+    build: 
+      context: .
+      dockerfile: ./GrpcGreeter/Dockerfile
+  grpcclient:
+    container_name: grpcclient
+    hostname: gclient
+    build: 
+      context: .
+      dockerfile: ./GrpcGreeterClient/Dockerfile
+    depends_on:
+      - grpcserver
